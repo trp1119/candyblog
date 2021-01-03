@@ -3,7 +3,7 @@
   "name": "candyblog",
   "version": "1.0.0",
   "scripts": {
-    "start": "dumi dev",
+    "start": "dumi dev --open",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father-build",
